@@ -1,96 +1,275 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>3POINTS PHOTOGRAPHY</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
     <script src="https://unpkg.com/feather-icons"></script>
-</head>
-<body class="bg-gray-50 min-h-screen flex flex-col">
-    <header class="bg-white shadow py-6 mb-8">
-        <div class="container mx-auto px-4 flex flex-col items-center">
-            <h1 class="text-4xl font-extrabold text-indigo-700 mb-2 tracking-tight">3POINTS PHOTOGRAPHY</h1>
-            <p class="text-lg text-gray-600">2 Days Wedding Packages</p>
+  </head>
+  <body class="bg-gray-50 min-h-screen flex flex-col">
+    <header
+      class="bg-gradient-to-r from-indigo-600 via-purple-500 to-pink-500 shadow-lg py-4 mb-10"
+    >
+      <div class="container mx-auto px-4 flex items-center justify-between">
+        <!-- Logo Left -->
+        <div class="flex items-center gap-2">
+          <img
+            src="/assets/3pointslogo.png"
+            alt="Logo"
+            class="h-10 w-10 mr-2"
+          />
+          <span
+            class="text-2xl md:text-3xl font-extrabold text-white tracking-tight drop-shadow-lg"
+            >3POINTS PHOTOGRAPHY</span
+          >
         </div>
+        <!-- Socials Right -->
+        <div class="flex items-center gap-4">
+          <a href="https://www.tiktok.com/@3pointsphotography" target="_blank" class="hover:scale-110 transition" title="TikTok"
+            ><img
+              src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tiktok.svg"
+              class="h-6 w-6"
+              style="filter: invert(1)"
+              alt="TikTok"
+          /></a>
+          <a href="https://web.facebook.com/aduala.princethreepointz" target="_blank" class="hover:scale-110 transition" title="Facebook"
+            ><img
+              src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg"
+              class="h-6 w-6"
+              style="filter: invert(1)"
+              alt="Facebook"
+          /></a>
+          <a href="https://www.youtube.com/@3pointsPhotography" target="_blank" class="hover:scale-110 transition" title="YouTube"
+            ><img
+              src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg"
+              class="h-6 w-6"
+              style="filter: invert(1)"
+              alt="YouTube"
+          /></a>
+          <a
+            href="tel:+233547244081"
+            class="flex items-center gap-1 text-white font-semibold hover:underline"
+            title="Call"
+            ><i data-feather="phone" class="h-5 w-5"></i>+233 54 724 4081</a
+          >
+        </div>
+      </div>
+      <div class="container mx-auto px-4 mt-4 flex flex-col items-center">
+        <p class="text-lg text-white/90 font-medium">2 Days Wedding Packages</p>
+      </div>
     </header>
+    <!-- Price List Card -->
+    <div class="container mx-auto px-4 mb-8">
+      <div
+        class="w-full bg-white rounded-xl shadow-lg p-6 flex flex-col items-center md:items-start md:flex-row md:justify-between md:gap-8"
+      >
+        <div>
+          <h2 class="text-2xl font-extrabold text-indigo-700 mb-1">
+            Price Lists
+          </h2>
+          <p class="text-gray-600 text-base max-w-xl">
+            Explore our curated wedding photography and videography packages.
+            Each package is designed to capture your special moments with
+            options for every need and budget. Find the perfect fit for your
+            celebration below.
+          </p>
+          <ul class="text-gray-600 list-disc pl-5 space-y-1">
+            <li>Extra Photobook, Album or Frames comes at an extra cost.</li>
+            <li>Client will bear cost of Transport and Feeding of team.</li>
+            <li>
+              60% payment should be made to book date and 40% after job
+              delivery.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <main class="container mx-auto px-4 flex-1">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Card 1: Essential Moments -->
-            <div class="bg-gradient-to-br from-gray-100 to-white border-l-4 border-indigo-400 rounded-xl shadow-lg p-6 flex flex-col hover:shadow-2xl transition">
-                <h3 class="text-xl font-bold mb-2 text-indigo-700">Essential Moments</h3>
-                <ul class="text-gray-700 mb-4 space-y-2 text-left">
-                    <li class="flex items-center"><i data-feather="camera" class="mr-2 text-indigo-400"></i>Photography</li>
-                    <li class="flex items-center"><i data-feather="image" class="mr-2 text-indigo-400"></i>Edited pictures</li>
-                    <li class="flex items-center"><i data-feather="users" class="mr-2 text-indigo-400"></i>Exclusive photoshoot with couple</li>
-                    <li class="flex items-center"><i data-feather="link" class="mr-2 text-indigo-400"></i>Delivery on a Link</li>
-                    <li class="flex items-center"><i data-feather="x-circle" class="mr-2 text-indigo-400"></i>No Prints, no Frames</li>
-                </ul>
-                <div class="text-2xl font-bold text-indigo-600 mb-2">GHS 2500</div>
-            </div>
-            <!-- Card 2: Framed Elegance -->
-            <div class="bg-gradient-to-br from-blue-100 to-white border-l-4 border-blue-400 rounded-xl shadow-lg p-6 flex flex-col hover:shadow-2xl transition">
-                <h3 class="text-xl font-bold mb-2 text-blue-700">Framed Elegance</h3>
-                <ul class="text-gray-700 mb-4 space-y-2 text-left">
-                    <li class="flex items-center"><i data-feather="camera" class="mr-2 text-blue-400"></i>Photography</li>
-                    <li class="flex items-center"><i data-feather="image" class="mr-2 text-blue-400"></i>All Edited pictures</li>
-                    <li class="flex items-center"><i data-feather="users" class="mr-2 text-blue-400"></i>Exclusive photoshoot with couple</li>
-                    <li class="flex items-center"><i data-feather="image" class="mr-2 text-blue-400"></i>3 Frames 20x24 🖼️</li>
-                </ul>
-                <div class="text-2xl font-bold text-blue-600 mb-2">GHS 3500</div>
-            </div>
-            <!-- Card 3: Grand Keepsake -->
-            <div class="bg-gradient-to-br from-purple-100 to-white border-l-4 border-purple-400 rounded-xl shadow-lg p-6 flex flex-col hover:shadow-2xl transition">
-                <h3 class="text-xl font-bold mb-2 text-purple-700">Grand Keepsake</h3>
-                <ul class="text-gray-700 mb-4 space-y-2 text-left">
-                    <li class="flex items-center"><i data-feather="camera" class="mr-2 text-purple-400"></i>Photography</li>
-                    <li class="flex items-center"><i data-feather="image" class="mr-2 text-purple-400"></i>All Edited pictures</li>
-                    <li class="flex items-center"><i data-feather="users" class="mr-2 text-purple-400"></i>Exclusive photoshoot with couple</li>
-                    <li class="flex items-center"><i data-feather="hard-drive" class="mr-2 text-purple-400"></i>Delivery on a Pendrive</li>
-                    <li class="flex items-center"><i data-feather="calendar" class="mr-2 text-purple-400"></i>Including Reception</li>
-                    <li class="flex items-center"><i data-feather="image" class="mr-2 text-purple-400"></i>3 Frames 20x24 Inc</li>
-                </ul>
-                <div class="text-2xl font-bold text-purple-600 mb-2">GHS 4000</div>
-            </div>
-            <!-- Card 4: Cinematic Bliss -->
-            <div class="bg-gradient-to-br from-pink-100 to-white border-l-4 border-pink-400 rounded-xl shadow-lg p-6 flex flex-col hover:shadow-2xl transition">
-                <h3 class="text-xl font-bold mb-2 text-pink-700">Cinematic Bliss</h3>
-                <ul class="text-gray-700 mb-4 space-y-2 text-left">
-                    <li class="flex items-center"><i data-feather="camera" class="mr-2 text-pink-400"></i>Photography and Videography</li>
-                    <li class="flex items-center"><i data-feather="image" class="mr-2 text-pink-400"></i>Edited pictures</li>
-                    <li class="flex items-center"><i data-feather="users" class="mr-2 text-pink-400"></i>Exclusive photoshoot with couple</li>
-                    <li class="flex items-center"><i data-feather="film" class="mr-2 text-pink-400"></i>Full video</li>
-                    <li class="flex items-center"><i data-feather="hard-drive" class="mr-2 text-pink-400"></i>Delivery on a Pendrive</li>
-                </ul>
-                <div class="text-2xl font-bold text-pink-600 mb-2">GHS 4500</div>
-            </div>
-            <!-- Card 5: Royal Signature -->
-            <div class="bg-gradient-to-br from-yellow-100 to-white border-l-4 border-yellow-400 rounded-xl shadow-lg p-6 flex flex-col hover:shadow-2xl transition">
-                <h3 class="text-xl font-bold mb-2 text-yellow-700">Royal Signature</h3>
-                <ul class="text-gray-700 mb-4 space-y-2 text-left">
-                    <li class="flex items-center"><i data-feather="camera" class="mr-2 text-yellow-400"></i>Photography and Videography</li>
-                    <li class="flex items-center"><i data-feather="image" class="mr-2 text-yellow-400"></i>Edited pictures</li>
-                    <li class="flex items-center"><i data-feather="users" class="mr-2 text-yellow-400"></i>Exclusive photoshoot with couple</li>
-                    <li class="flex items-center"><i data-feather="film" class="mr-2 text-yellow-400"></i>Full video & 3 Frames 🖼️</li>
-                    <li class="flex items-center"><i data-feather="hard-drive" class="mr-2 text-yellow-400"></i>Delivery on a Pendrive</li>
-                </ul>
-                <div class="text-2xl font-bold text-yellow-600 mb-2">GHS 4500</div>
-            </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Card 1: Essential Moments -->
+        <div
+          class="bg-gradient-to-br from-gray-100 to-white border-l-4 border-indigo-400 rounded-xl shadow-lg p-6 flex flex-col hover:shadow-2xl transition"
+        >
+          <h3 class="text-xl font-bold mb-2 text-indigo-700">
+            Essential Moments
+          </h3>
+          <ul class="text-gray-700 mb-4 space-y-2 text-left">
+            <li class="flex items-center">
+              <i data-feather="camera" class="mr-2 text-indigo-400"></i
+              >Photography
+            </li>
+            <li class="flex items-center">
+              <i data-feather="image" class="mr-2 text-indigo-400"></i>Edited
+              pictures
+            </li>
+            <li class="flex items-center">
+              <i data-feather="users" class="mr-2 text-indigo-400"></i>Exclusive
+              Photo Shoot with Couple
+            </li>
+            <li class="flex items-center">
+              <i data-feather="link" class="mr-2 text-indigo-400"></i>Delivery
+              on a Link
+            </li>
+            <li class="flex items-center">
+              <i data-feather="x-circle" class="mr-2 text-indigo-400"></i>No
+              Prints, no Frames
+            </li>
+          </ul>
+          <div class="text-2xl font-bold text-indigo-600 mb-2">GHS 2500</div>
         </div>
-        <div class="mt-12 max-w-2xl mx-auto bg-white rounded-lg shadow p-6">
-            <h4 class="text-lg font-semibold text-gray-800 mb-2">Note</h4>
-            <ul class="text-gray-600 list-disc pl-5 space-y-1">
-                <li>Extra Photobook, Album or Frames comes at an extra cost.</li>
-                <li>Client will bear cost of Transport and Feeding of team.</li>
-                <li>60% payment should be made to book date and 40% after job delivery.</li>
-            </ul>
+        <!-- Card 2: Framed Elegance -->
+        <div
+          class="bg-gradient-to-br from-blue-100 to-white border-l-4 border-blue-400 rounded-xl shadow-lg p-6 flex flex-col hover:shadow-2xl transition"
+        >
+          <h3 class="text-xl font-bold mb-2 text-blue-700">Framed Elegance</h3>
+          <ul class="text-gray-700 mb-4 space-y-2 text-left">
+            <li class="flex items-center">
+              <i data-feather="camera" class="mr-2 text-blue-400"></i
+              >Photography
+            </li>
+            <li class="flex items-center">
+              <i data-feather="image" class="mr-2 text-blue-400"></i>All Edited
+              pictures
+            </li>
+            <li class="flex items-center">
+              <i data-feather="users" class="mr-2 text-blue-400"></i>Exclusive
+              Photo Shoot with Couple
+            </li>
+            <li class="flex items-center">
+              <i data-feather="image" class="mr-2 text-blue-400"></i>3 Frames
+              20x24 🖼️
+            </li>
+          </ul>
+          <div class="text-2xl font-bold text-blue-600 mb-2">GHS 3500</div>
         </div>
+        <!-- Card 3: Grand Keepsake -->
+        <div
+          class="bg-gradient-to-br from-purple-100 to-white border-l-4 border-purple-400 rounded-xl shadow-lg p-6 flex flex-col hover:shadow-2xl transition"
+        >
+          <h3 class="text-xl font-bold mb-2 text-purple-700">Grand Keepsake</h3>
+          <ul class="text-gray-700 mb-4 space-y-2 text-left">
+            <li class="flex items-center">
+              <i data-feather="camera" class="mr-2 text-purple-400"></i
+              >Photography
+            </li>
+            <li class="flex items-center">
+              <i data-feather="image" class="mr-2 text-purple-400"></i>All
+              Edited pictures
+            </li>
+            <li class="flex items-center">
+              <i data-feather="users" class="mr-2 text-purple-400"></i>Exclusive
+              Photo Shoot with Couple
+            </li>
+            <li class="flex items-center">
+              <i data-feather="hard-drive" class="mr-2 text-purple-400"></i
+              >Delivery on a Pen Drive
+            </li>
+            <li class="flex items-center">
+              <i data-feather="calendar" class="mr-2 text-purple-400"></i
+              >Including Reception
+            </li>
+            <li class="flex items-center">
+              <i data-feather="image" class="mr-2 text-purple-400"></i>3 Frames
+              20x24 Inc
+            </li>
+          </ul>
+          <div class="text-2xl font-bold text-purple-600 mb-2">GHS 4000</div>
+        </div>
+        <!-- Card 4: Cinematic Bliss -->
+        <div
+          class="bg-gradient-to-br from-pink-100 to-white border-l-4 border-pink-400 rounded-xl shadow-lg p-6 flex flex-col hover:shadow-2xl transition"
+        >
+          <h3 class="text-xl font-bold mb-2 text-pink-700">Cinematic Bliss</h3>
+          <ul class="text-gray-700 mb-4 space-y-2 text-left">
+            <li class="flex items-center">
+              <i data-feather="camera" class="mr-2 text-pink-400"></i
+              >Photography and Videography
+            </li>
+            <li class="flex items-center">
+              <i data-feather="image" class="mr-2 text-pink-400"></i>Edited
+              pictures
+            </li>
+            <li class="flex items-center">
+              <i data-feather="users" class="mr-2 text-pink-400"></i>Exclusive
+              Photo Shoot with Couple
+            </li>
+            <li class="flex items-center">
+              <i data-feather="film" class="mr-2 text-pink-400"></i>Full video
+            </li>
+            <li class="flex items-center">
+              <i data-feather="hard-drive" class="mr-2 text-pink-400"></i
+              >Delivery on a Pen Drive
+            </li>
+          </ul>
+          <div class="text-2xl font-bold text-pink-600 mb-2">GHS 4500</div>
+        </div>
+        <!-- Card 5: Royal Signature -->
+        <div
+          class="lg:col-span-2 bg-gradient-to-br from-yellow-200 via-yellow-100 to-white border-l-8 border-yellow-400 rounded-2xl shadow-2xl p-8 flex flex-col hover:scale-105 transition-transform duration-300 ring-2 ring-yellow-300 relative overflow-hidden"
+        >
+          <span
+            class="absolute top-4 right-4 bg-yellow-400 text-white text-xs font-bold px-3 py-1 rounded-full shadow"
+            >Most Premium</span
+          >
+          <h3
+            class="text-2xl font-extrabold mb-3 text-yellow-700 flex items-center gap-2"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-7 w-7 text-yellow-500"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 8c-1.657 0-3 1.343-3 3 0 1.657 1.343 3 3 3s3-1.343 3-3c0-1.657-1.343-3-3-3zm0 10c-4.418 0-8-1.79-8-4V7a2 2 0 012-2h2.586a1 1 0 00.707-.293l1.414-1.414A2 2 0 0112 2a2 2 0 011.293.293l1.414 1.414A1 1 0 0015.414 5H18a2 2 0 012 2v7c0 2.21-3.582 4-8 4z"
+              />
+            </svg>
+            Royal Signature
+          </h3>
+          <ul class="text-gray-800 mb-5 space-y-2 text-left font-medium">
+            <li class="flex items-center">
+              <i data-feather="camera" class="mr-2 text-yellow-500"></i
+              >Photography and Videography
+            </li>
+            <li class="flex items-center">
+              <i data-feather="image" class="mr-2 text-yellow-500"></i>Edited
+              pictures
+            </li>
+            <li class="flex items-center">
+              <i data-feather="users" class="mr-2 text-yellow-500"></i>Exclusive
+              Photo Shoot with Couple
+            </li>
+            <li class="flex items-center">
+              <i data-feather="film" class="mr-2 text-yellow-500"></i>Full video
+              & 3 Frames 🖼️
+            </li>
+            <li class="flex items-center">
+              <i data-feather="hard-drive" class="mr-2 text-yellow-500"></i
+              >Delivery on a Pen Drive
+            </li>
+          </ul>
+          <div class="text-3xl font-extrabold text-yellow-600 mb-2 drop-shadow">
+            GHS 4500
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="bg-white mt-12 py-4 shadow-inner">
-        <div class="container mx-auto px-4 text-center text-gray-500 text-sm">
-            &copy; 2025 3POINTS PHOTOGRAPHY. All rights reserved.
-        </div>
+      <div class="container mx-auto px-4 text-center text-gray-500 text-sm">
+        &copy; 2025 3POINTS PHOTOGRAPHY. All rights reserved.
+      </div>
     </footer>
-    <script>feather.replace()</script>
-</body>
+    <script>
+      feather.replace();
+    </script>
+  </body>
 </html>
